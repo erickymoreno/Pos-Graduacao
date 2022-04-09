@@ -1,0 +1,134 @@
+:root{
+    --cor-detalhe: #E74C3C;
+    --cor-principal: #FFD200;
+    --cor-secundaria: #2D3748;
+    --cor-fundo: #FFFFFF;
+    --cor-menu: #E5E5E5;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.content{
+    max-width: 80%;
+    margin: auto;
+    text-align: center
+    
+}
+
+.header {
+    background-color: var(--cor-principal);
+}
+
+.header-title {
+    padding: 20px 10px;
+}
+
+.title {
+    font-size:18px;
+    display: inline-block;
+    margin-left: 50%;
+    text-align: right;
+}
+
+.menu {
+    display: none;
+}
+
+
+@media (min-width: 500px){
+    .menu{
+        display: block;
+    }
+    
+    #icone-menu{
+        display: none;
+    }
+
+    .menu img {
+        width: 0px;
+     }
+}
+
+.menu ul {
+    list-style: none;
+}
+
+.menu-bar{
+    background-color: var(--cor-menu);
+}
+
+.menu img {
+    background-color: var(--cor-menu);
+    display: block
+}
+.menu a {
+    color: var(--cor-secundaria);
+    background-color: var(--cor-menu);
+    text-decoration: none;
+    padding: 5px;
+    display: block;
+}
+
+.menu a:hover {
+    color: var(--cor-menu);
+    background-color: var(--cor-secundaria);
+}
+
+@media (min-width: 500px){
+    .menu a, .menu li{
+        display: inline-block;
+    }
+
+    .menu ul {
+        background-color: var(--cor-menu)
+    }
+}
+
+.date{
+    max-width: 100%;
+    background-color: var(--cor-principal);
+    text-align:center;
+    margin-top: 10px;
+}
+
+.paragraf{
+    padding: 2px;
+}
+
+.paragraf p{
+    font-size: 18px;
+    margin: 8px;
+}
+
+.text-p{
+    max-width: 100%;
+    text-align:justify;
+    line-height: 1.5;
+    margin: 16px 0px 16px 0px;
+}
+
+.date-pro {
+    margin: 16px 0px 16px 0px;
+}
+
+
+.card-img {
+    display: inline-block;
+}
+
+.card-img img {
+    border-radius:100%;
+    border: 1px solid;
+}
+
+.card-name{
+    display: inline-block;
+    text-align: left;
+}
+.name-perso {
+    font-weight: bold; 
+    margin: 16px 0px 16px 0px;
+}

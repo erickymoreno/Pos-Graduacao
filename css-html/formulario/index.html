@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/style.css">
+    <title>Formulário</title>
+</head>
+<body>
+    <div class="content">
+        <form action="" class="formulario">
+            <div>Formulário</div>
+            <div>
+                <div>
+                    <label for="nome">Nome</label>
+                </div>
+                <div>
+                    <input type="text" id="nome" placeholder="Ex.: Maria Aparecida">
+                </div>
+            </div>
+            <div>
+                <div>
+                <label for="sexo">Sexo</label>
+                </div>
+                <div>
+                    <input type="radio" id="sex-f" name="sex">
+                    <label for="sex-f">Feminino</label>
+                    <input type="radio" id="sex-m" name="sex">
+                    <label for="sex-m">Masculino</label>
+                </div>
+            </div>
+            <div>
+                <div><label for="estado">Estado</label></div>
+                <div>
+                    <select  class="estado" id="estado" autocomplete="off">
+                        <option value="AC">Acre</option>
+                        <option value="AM">Amazonas</option>
+                        <option value="AP">Macapá</option>
+                        <option value="PA">Pará</option>
+                        <option value="RO" selected>Rondônia</option>
+                        <option value="RR">Roraima</option>
+                        <option value="TO">Tocantis</option>
+                    </select>
+                </div>
+            </div>
+            <div>
+                <div><label for="atendimento">Descreva o atendimento especial</label></div>
+                <div>
+                    <textarea name="atendimento" id="atendimento" cols="30" rows="10"></textarea>
+                </div>
+            </div>
+            <div>
+                <input type="checkbox" id="termos">
+                <label for="termos"> Estou de acordo com os termos de serviço</label>
+            </div> 
+            <div><input type="button" value="Realizar inscrição" class="botao"></div>
+        </form>
+    </div>
+</body>
+</html>

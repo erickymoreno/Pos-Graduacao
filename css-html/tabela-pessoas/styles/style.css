@@ -1,0 +1,49 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+:root{
+    --cor-primaria: #ffffff;
+    --cor-secundaria: #000000;
+    --cor-constraste: #E2E2E2;
+    --cor-detalhe: #D3310C;
+}
+
+.content{
+    max-width: 80%;
+    margin: auto;
+    padding-top:50px ;
+    text-align: center;
+}
+
+.tabela{
+    border-collapse: collapse;
+    width: 100%;
+    margin: 40px;
+
+}
+
+.tabela th{
+    background-color: var(--cor-secundaria);
+    color: var(--cor-primaria);
+    padding: 20px;
+}
+
+.tabela td{
+    text-align: center;
+}
+
+.tabela tr:nth-child(even){
+    background-color: var(--cor-constraste);
+}
+
+.tabela tr:hover{
+    background-color: var(--cor-detalhe);
+    color: var(--cor-primaria);
+}
+
+.foto {
+    border-radius: 5px;
+    border: 1px var(--cor-secundaria) solid; 
+}
