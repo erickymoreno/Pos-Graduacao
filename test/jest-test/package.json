@@ -1,0 +1,20 @@
+{
+  "name": "test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^8.25.0",
+    "eslint-config-xo": "^0.42.0"
+  },
+  "dependencies": {
+    "jest": "28.1.0",
+    "save-dev": "0.0.1-security"
+  }
+}
